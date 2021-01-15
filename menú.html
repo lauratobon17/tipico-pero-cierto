@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Menú</title>
+    <link rel="stylesheet" type="text/css" href="./menú.css">
+    <link rel="stylesheet" type="text/css" href="./plantilla.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+<body>
+	
+<script type="text/javascript"> 
+        function showElement1() { 
+            element = document.querySelector('.item1'); 
+            element.style.visibility = 'visible'; 
+        } 
+  
+        function hideElement1() { 
+            element = document.querySelector('.item1'); 
+            element.style.visibility = 'hidden'; 
+        } 
+
+        function showElement2() { 
+            element = document.querySelector('.item2'); 
+            element.style.visibility = 'visible'; 
+        } 
+  
+        function hideElement2() { 
+            element = document.querySelector('.item2'); 
+            element.style.visibility = 'hidden'; 
+        } 
+
+        function showElement3() { 
+            element = document.querySelector('.item3'); 
+            element.style.visibility = 'visible'; 
+        } 
+  
+        function hideElement3() { 
+            element = document.querySelector('.item3'); 
+            element.style.visibility = 'hidden'; 
+        } 
+
+        function showElement4() { 
+            element = document.querySelector('.item4'); 
+            element.style.visibility = 'visible'; 
+        } 
+  
+        function hideElement4() { 
+            element = document.querySelector('.item4'); 
+            element.style.visibility = 'hidden'; 
+        } 
+    </script>
+
+
+<nav class="menu">
+  <input type="checkbox" onclick="hideElement1();hideElement2();hideElement3();hideElement4()" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+  <label class="menu-open-button" for="menu-open">
+    <span class="hamburger hamburger-1"></span>
+    <span class="hamburger hamburger-2"></span>
+    <span class="hamburger hamburger-3"></span>
+  </label>
+  
+
+  <a href="index.html" class="menu-item" onmouseover="showElement1();showElement2();hideElement3();hideElement4()"> Inicio sesión</a>
+  <a href="index.html" target="blank" class="menu-item item1">Usuarias</a>
+  <a href="index.html" target="blank" class="menu-item item2">Profesionales</a>
+  <a href="index.html" class="menu-item" onmouseover="hideElement1();hideElement2();showElement3();showElement4()"> Registro</a>
+
+  <a href="index.html" target="blank" class="menu-item item3">Usuarias</a>
+  <a href="" target="blank" class="menu-item item4">Profesionales</a>
+  <a href="" target="blank" class="menu-item" onmouseover="hideElement1();hideElement2();hideElement3();hideElement4()"> Sobre la banda</a>
+  <a href="" target="blank" class="menu-item" onmouseover="hideElement1();hideElement2();hideElement3();hideElement4()"> Conciertos</a>
+  <a href="" target="blank" class="menu-item" onmouseover="hideElement1();hideElement2();hideElement3();hideElement4()"> VIP</a>
+
+  <a href="contc.html" target="blank" class="menu-item" onmouseover="hideElement1();hideElement2();hideElement3();hideElement4()"> Contáctanos</a>
+
+</nav>
+
+
+<!-- filters -->
+    <defs>
+      <filter id="shadowed-goo">
+          
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+          <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+          <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+          <feComposite in2="shadow" in="goo" result="goo" />
+          <feComposite in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+      <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feComposite in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+    </defs>
+</svg>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+	<div class="cuadro_grande">
+	<div class="cuadro">
+	<ul class="botones">
+		<li> <a href="#">Historia</a></li>
+	</ul>
+	</div>
+	
+	
+	<div class="cuadro">
+	<ul class="botones">
+		<li> <a href="#">Información importante</a></li>
+	</ul>
+	</div>
+	<div class="cuadro">
+	<ul class="botones">
+		<li> <a href="#">Testimonios</a></li>
+	</ul>
+	</div>
+
+	</div>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+body{
+	text-align: center;
+	
+}
+
+.titulo1 {
+	font-family: 'Gotu', sans-serif;
+	font-size: 78px;
+	margin-bottom: 2px;
+	font-size: 86px;
+	color: #232946;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+	
+}
+@-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 25px rgb(255, 255, 255), 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #a3f3e8, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #00cbe6;
+	}
+	to {
+	  text-shadow: 0 0 20px rgb(255, 255, 255), 0 0 30px #36ffcd, 0 0 40px #8dfff9, 0 0 50px #4dfff6, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #4dffac;
+	}
+  }
+.titulo2{
+	font-family: 'Gotu', sans-serif;
+	font-size: 30px;
+	margin-top: 2px;
+	margin-bottom: 1pxS;
+}
+.p1{
+	color: #a3f3e8;
+	font-family: 'Gotu', sans-serif;
+}
+
+.campo{
+	border-radius: 27px 27px 27px 27px;
+	border-color: azure;
+	border: 0px;
+	font-family: 'Gotu', sans-serif;
+	color: #84889e;
+	text-align: center;
+	background-color: #e1fafa;
+
+}
+
+.boton{
+color: blueviolet;
+}
+
+.acept{
+	font-family:  'Gotu', sans-serif;
+}
+
+.botonr{
+	font-family:  'Gotu', sans-serif;
+	border-radius: 27px 27px 27px 27px;
+	border-color: rgb(159, 253, 253);
+    border: 0px;
+	background-color: #e1fafa;
+	font-weight: bold;
+}
+
+.datosini{
+	font-family:  'Gotu', sans-serif;
+	color: #88a6e5;
+	font-size: 5px;
+}
